@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Danke</title>
+  <%= stylesheet_link_tag "http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= stylesheet_link_tag "http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" %>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+    <!--Body content-->
+    <%= yield %>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

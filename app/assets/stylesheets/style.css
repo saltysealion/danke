@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #FFF1CB;
+}
+
+.lead {
+  padding: 50px;
+}
+
+.lead input[type="text"] {
+  height: 105px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  max-width: 100% !important;
+  font-size: 91px;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: #B4350F;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 2px dotted #3C475C;
+}
+
+.lead span {
+  font-size: 6.5em;
+  line-height: 1em;
+  color: #3C475C;
+}a
+
+.lead p {
+  margin-bottom: 30px;
+}
